@@ -1,0 +1,25 @@
+{
+    "require": {
+        "ext-curl": "*",
+        "ext-SimpleXML": "*",
+        "php": ">=5.6.0"
+    },
+    "name": "ryssbowh/zedonk-api-php",
+    "description": "Simple PHP Wrapper for Zedonk API calls",
+    "type": "library",
+    "keywords": [
+        "zedonk",
+        "PHP",
+        "API"
+    ],
+    "homepage": "https://github.com/ryssbowh/zedonk-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris Blondin"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ZedonkAPI\\":"src/"}
+    }
+}
